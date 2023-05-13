@@ -47,6 +47,7 @@
 		"no-case-declarations": "off",
 		"linebreak-style": ["warn", "unix"],
 		"semi": ["warn", "always"],
-		"no-debugger": ["warn"]
+		"no-debugger": ["warn"],
+		"react/no-unknown-property": ["error", { "ignore": ["css", "tw"] }]
 	}
 }
