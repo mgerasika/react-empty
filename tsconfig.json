@@ -26,11 +26,14 @@
     "jsx": "react-jsx",
     "baseUrl": ".",
     "isolatedModules": true,
-	"typeRoots": [ "types/global.d.ts", "./types/twin.d.ts", "./types/svg.d.ts"]
+    "typeRoots": [
+      "types/global.d.ts",
+      "./types/twin.d.ts",
+      "./types/svg.d.ts"
+    ]
   },
   "include": [
-   
-	"**/*.ts",
-    "**/*.tsx",
+    "**/*.ts",
+    "**/*.tsx"
   ]
 }
